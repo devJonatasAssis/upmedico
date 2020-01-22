@@ -1,0 +1,103 @@
+CAMPO DE VALOR
+
+import InputCalc from '../lib_react_adminlte/componentes/InputCalc';
+        <div className="row">
+          <div className="col-sm-2">
+            <InputCalc label="Valor:"
+                       disabled
+                       value={this.state.registro.vr_produto}
+                       onChange={e => this.onChange('vr_produto', e)} />
+          </div>
+        </div>
+
+
+            <div className="col-sm-4">
+              <InputCalc label="Valor do produto:"
+                disabled
+                value={this.state.vrSugeridoProduto} />
+            </div>
+
+                    <div className="row mt-5">
+          <div className="col-sm-3">
+            <InputCalc label="Desconto Máximo:" 
+                       percentage
+                       value={this.state.registro.desconto_maximo} 
+                       onChange={this.onChange.bind(this, 'desconto_maximo')} />
+          </div>
+          <div className="col-sm-3">
+            <InputCalc label="Valor para sangria:" 
+                       value={this.state.registro.vr_limite_sangria} 
+                       onChange={this.onChange.bind(this, 'vr_limite_sangria')} />
+          </div>
+        </div>        
+
+        <div className="row mt-5">
+          <div className="col-sm-3">
+            <InputCalc label="Comissão - A Vista:" 
+                       value={this.state.registro.comissao_1} 
+                       onChange={this.onChange.bind(this, 'comissao_1')} />
+          </div>
+          <div className="col-sm-3">
+            <InputCalc label="Comissão - A Prazo:"
+                       value={this.state.registro.comissao_2} 
+                       onChange={this.onChange.bind(this, 'comissao_2')} />
+          </div>
+        </div>
+
+
+
+
+
+
+            
+
+CAMPO DE DATA
+        <div className="row d-flex">
+          <div className="row col-sm-12">
+            <div className="col-sm-4">
+              <InputDate label="Data Cadastro" className="mb-10 p-0"
+                         value={this.state.registro.dt_cadastro}
+                         onChange={e => this.onChange('dt_cadastro', e.target.value)} />
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+FAZER BUSCA NO BANCO DE DADOS
+  async componentDidMount() {
+    // Vamos carregar os tamanhos do banco:
+    const ret = await Api.buscar2('tab_tamanho').fields('tab_tamanho.*').execute();
+    if (!ret) {
+      return toastr.error('Erro!', 'Não foi possível recuperar os tamanhos do banco de dados!');
+    }
+    this.setState({ tamanhos: ret.dados });
+  }
+
+
+
+
+
+
+    if (ret.status) {
+      for (const reg of ret.dados) {
+        reg.vr_produto_formatado = `R$ ${NumberUtils.formatFloat(reg.vr_produto, 2)}`;
+        reg.dt_cadastro = moment(reg.dt_cadastro).format('DD/MM/YYYY');
+      }
+    }
+
+
+
+    
+    for (const s of ret.dados) {
+      if (s.dt_validade) {
+        s.dt_validade = moment(s.dt_validade).format('DD/MM/YYYY');
+      }

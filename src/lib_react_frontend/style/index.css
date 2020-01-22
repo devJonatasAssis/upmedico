@@ -1,0 +1,38 @@
+body {
+}
+
+/** deixa o background levemente cinza ao passar o mouse por cima */
+.light_grey_bg_hover {
+  background: white;
+  transition: background .02s;
+}
+.light_grey_bg_hover:hover {
+  cursor: pointer;
+  background: rgb(240, 240, 240)
+}
+
+/** deixa o foreground levemente cinza ao passar o mouse por cima */
+.light_grey_fg_hover {
+  transition: color .05s;
+}
+.light_grey_fg_hover:hover {
+  cursor: pointer;
+  color: rgb(200, 200, 200)
+}
+
+.ui-radiobutton-label {
+  background: red;
+}
+
+/***********************************/
+
+.form-sep {
+  margin: 5px !important;
+}
+
+@media (max-width: 768px) {
+  .form-sep {
+    display: none;
+  }
+}
+

@@ -1,0 +1,16 @@
+- Arterar o cadastro para passar por parametros o DE e o ATE da paginação
+
+
+san01xlz - 74A960D1B94D6A69
+mysql    - 6ACE8F8484 Arquivo .ini do ApiceMedico
+
+
+criar configuração de nível para desabilitar
+tab_funcionario_permite_tela
+- cod_funcionario
+- cod_tela
+- status_habilita_tela
+
+criar tabela para tela
+- cod_tela
+- rota_tela

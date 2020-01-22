@@ -1,0 +1,428 @@
+.hand {
+  cursor: pointer;
+}
+
+.list-item {
+  padding: 7px;
+}
+
+.no-space {
+  padding: 0px;
+  margin: 0px;
+}
+
+.title {
+  font-size: 28px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, .15);
+  font-weight: normal;
+  color: rgb(60, 60, 60);
+}
+
+.h-40 {
+  height: 40px !important;
+}
+
+.normal-case {
+  text-transform: none !important;
+}
+
+.sub-title {
+  font-size: 20px;
+  color: rgb(60, 60, 60);
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.opacity-05 {
+  opacity: .5;
+}
+
+.font-15 {
+  font-size: 15px !important;
+}
+
+.light-shadow {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .1) !important;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.half {
+  width: 50%;
+}
+
+.trans-03s {
+  transition: all .3s;
+}
+
+.m-0 {
+  margin: 0px !important;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.legenda-box {
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  margin-right: 5px;
+}
+
+.p-3 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.light-side-border {
+  border-right: 1px solid rgba(0, 0, 0, .1);
+  border-left: 1px solid rgba(0, 0, 0, .1);
+}
+
+.light-upper-border {
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.light-full-border {
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 1px;
+  padding: 10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .05);
+  margin-bottom: 5px;
+}
+
+.p-0 {
+  padding: 0px !important;
+}
+
+.abc {
+  align-items: center;
+}
+
+.pb-30 {
+  padding-bottom: 30px !important;
+}
+
+.inline {
+  display: inline;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pl-5 {
+  padding-left: 15px !important;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.cod-apice-panel {
+  width: 85px !important;
+} 
+
+.shadow-up-1 {
+  box-shadow: 0px -2px 2px rgba(0, 0, 0, .1);
+}
+
+.shadow-up-2 {
+  box-shadow: 0px -2px 2px rgba(0, 0, 0, .2);
+}
+
+.shadow-2 {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.shadow-3 {
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, .2);
+}
+
+.msg-table-vazio {
+  font-size: 15px;
+  text-align: center;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  margin: 10px;
+}
+
+.alert-danger {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .2);
+  border: 2px solid white;
+}
+
+.fa-2x.fa-center {
+  left: calc(50% - 15px);
+  top: calc(50% - 14px);
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.btn-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 0px;
+}
+
+/* Transforma o botão em uma bola simética */
+.roundedButton {
+  border-radius: 50%;
+}
+
+.fa-3x.fa-center {
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+}
+
+.fa-4x.fa-center {
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.loading-spinner {
+  color: black;
+  position: absolute;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+  left: 50%;
+  top: 50%;
+  z-index: 1000;
+}
+
+select {
+  border: 1px solid rgba(0, 0, 0, .2) !important;
+}
+
+.loading-wrapper-x {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.Alert-body-0-1-37 {
+  font-size: 17px;
+}
+
+.apice-pie-chart-wrapper {
+  display: flex;
+  flex: 1;
+  position: relative;
+  justify-content: center;
+}
+
+.apice-pie-legenda-wrapper {
+  display: inline-block;
+  border-bottom: 1px solid rgba(0, 0, 0, .07);
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+  width: 50%;
+}
+
+.apice-pie-legenda-wrapper > div {
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid rgba(0, 0, 0, .05);
+  width: 12px;
+  position: relative;
+  top: 1px;
+  height: 12px;
+}
+
+.apice-pie-chart-container {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, .15);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  padding: 10px;
+}
+
+.apice-background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: repeat;
+}
+
+.pg-height {
+  height: 100vh;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-v-middle {
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: 'wrap';
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex {
+  flex: 1;
+  flex-grow: 1;
+}
+
+.font-medium {
+  font-size: 15px;
+}
+
+.font-big1 {
+  font-size: 20px;
+}
+
+.font-big2 {
+  font-size: 25px;
+}
+
+._red {
+  background: red;
+}
+
+._blue {
+  background: blue;
+}
+
+.apice-pie-legenda-container {
+  display: inline-block;
+  border-top: 1px solid rgba(0, 0, 0, .15);
+  font-size: 14px;
+  padding-top: 10px;
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width:500px) {
+  .apice-pie-legenda-wrapper {
+    display: inline-block;
+    width: 50%;
+    border-right: none;
+  }
+}
+
+@media (max-width:350px) {
+  .apice-pie-legenda-wrapper {
+    display: inline-block;
+    width: 100%;
+    border-right: none;
+  }
+}
