@@ -67,7 +67,7 @@
     "requestify": "0.2.5",
     "shortid": "^2.2.8",
     "simple-ini": "^1.0.4",
-    "socket.io": "^1.5.1",
+    "socket.io": "^2.4.0",
     "socket.io-client": "1.7.2",
     "socket.io-stream": "0.9.1",
     "string-to-stream": "1.1.0",
