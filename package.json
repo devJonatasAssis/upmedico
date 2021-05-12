@@ -7,7 +7,7 @@
     "bootstrap": "^4.0.0",
     "bootstrap-datepicker": "^1.8.0",
     "bootstrap-daterangepicker": "^3.0.2",
-    "chart.js": "^1.1.1",
+    "chart.js": "^2.9.4",
     "chartjs": "^0.3.24",
     "classnames": "^2.2.5",
     "eslint": "3.10.2",
